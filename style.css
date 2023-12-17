@@ -22,21 +22,20 @@ body {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background-color: white;
+    background: linear-gradient(to right, #87CEEB, #4169E1);
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items:center;
 }
-.animation-bg{
-    background:linear-gradient(pink,red,yellow,white,blue);
-    background-size: 400% 400%;
-    animation:gradient 15s ease infinite;
-}
+
 .Inner-circle {
     height: 230px;
     width: 230px;
     border-radius: 50%;
     background-color:black;
+    
+
     display: flex;
     justify-content: center;
     align-items:center ;
@@ -47,17 +46,20 @@ body {
     overflow: auto;
 }
 .text{
-    color: white;
+    color: #FFFFFF;
     font-size: 23px;
 }
 .min{
     font-size: 32px;
+    color: #FFFFFF;
 }
 .sec{
     font-size: 42px;
+    color: #FFFFFF;
 }
 .msec{
     font-size: 27px;
+    color: #FFFF00;
 }
 .button-wrapper{
     width: 250px;
@@ -71,7 +73,7 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border:2px solid white;
+    border:2px solid  linear-gradient(to right, #87CEEB, #4169E1);
     background-color: black;
     color: white;
     cursor: pointer;
@@ -79,6 +81,7 @@ body {
 .button:hover{
     background-color: white;
     color: black;
+    background: linear-gradient(to right, #87CEEB, #4169E1);
 }
 .laps{
     list-style:none;
@@ -131,6 +134,7 @@ li{
     margin-bottom: 12px;
     text-align: center;
 }
+
 .lap-clear-button{
     display: block;
     position: fixed;
